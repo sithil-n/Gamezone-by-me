@@ -1,0 +1,200 @@
+/* background starts here */
+#body{
+    background-image: url(../../bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+
+/* banner starts here */
+#banner{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* navigation starts here */
+#header{
+    background-color: #7c1010;
+    display: flex;
+    height: 10vh;
+    width: 100;
+    justify-content: center;
+    margin: auto;
+    background-size: cover;
+    align-items: center;
+}
+
+
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+
+ul.navbar li{
+    width: 170px;
+}
+
+
+ul.navbar li a{
+    color: #eeeded;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+ul.navbar li a:hover{
+    color: #fb7359;
+    transition: 0.8s;
+}
+/* navigation ends here */
+
+/* game heding starts here */
+#hed{
+    color: #eeeded;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 400%;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+
+/* game pic */
+.game{
+    margin-top: 10%;
+    margin-left: 70px;
+}
+
+
+.game>img{
+    border-radius: 10px;
+}
+
+/* game req heding starts here */
+#req{
+    color: #eeeded;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* game req starts here */
+.req{
+    color: #eeeded;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    list-style: circle;
+    line-height: 250%;
+    margin-left: 40px;
+}
+
+
+/* download button */
+.btn_1{
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background-color: #7c1010;
+    color: #eeeded;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.8s;
+    margin-left: 76px;
+}
+
+
+.btn_1:hover{
+    color: #fb7359;
+}
+/* download button animation */
+.fa-sharp{
+    margin: 5px;
+}
+/* download button ends here */
+
+
+/* footer starts here */
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.footer-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.footer-logo{
+    height: 12vh;
+    width: 27rem;
+    margin-top: 7rem;
+    margin: top 10rem;
+    line-height: 1.7rem;
+}
+
+ul h3{
+    color: #eeeded;
+    font-size: 400%;
+    font-weight: bolder;
+    margin-bottom: auto;
+}
+
+
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+
+
+.footer-logo h1{
+    margin-left: 20px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #eeeded;
+}
+
+
+ul li a:hover{
+    color: #fb7359;
+    transition: 0.8s;
+}
+
+
+.footer-bottom{
+    width: 100%;
+    height: 5vh;
+    background: #000000;
+    color:#eeeded;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    font-size: 90%;
+}
+
+
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}

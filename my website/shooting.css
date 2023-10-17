@@ -1,0 +1,173 @@
+/* banner starts here */
+#banner{
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* backgroung */
+#background{
+    background-image: url(bg.png);
+    background-size:cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+
+/* navigation starts here */
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+
+ul.navbar li{
+    width: 170px;
+}
+
+
+ul.navbar li a{
+    color: #eeeded;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+ul.navbar li a:hover
+{
+                color: #fb7359;
+                transition: 0.8s;
+}
+
+.active{
+    color: #fb7359;
+}
+
+#herder{
+    background: #7c1010;
+    height: 10vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+}
+/* navigation ends here */
+
+
+/* heding */
+#hed{
+    font-size: 400%;
+    text-align: left;
+    color: #eeeded;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+
+/* games img starts here */
+.contend{
+    width: 100% auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contend > .container_01{
+    margin: 20px;
+}
+
+
+.img_01
+{
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.img_01:hover{
+    transform: translateY(-20px);
+}
+/* games img ends here */
+
+
+
+/* footer starts here */
+footer{
+    width: 100%;
+    height: 40vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;    
+}
+
+
+.footer-body{
+    width: 100%;    
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+
+.footer-logo{
+    height: 12vh;
+    width: 27rem;
+    margin-top: 7rem;
+    margin: top 10rem; ;
+    line-height: 1.7rem;
+}
+
+
+ul h3{
+    color:#eeeded;
+    font-size: 400%;
+    font-weight: bolder;
+    margin-bottom: auto;
+}
+
+
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+
+
+.footer-logo h1{
+    margin-left: 20px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #eeeded;
+}
+
+
+ul li a:hover{
+    color: #fb7359;
+    transition: 0.8s;
+}
+
+
+.footer-bottom{
+    width: 100%;
+    height: 5vh;
+    background: #000000;
+    color:#eeeded;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    font-size: 90%;
+}
+
+
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
